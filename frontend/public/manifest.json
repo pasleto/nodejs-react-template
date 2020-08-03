@@ -1,0 +1,21 @@
+{
+  "short_name": "NodeJS & ReactJS Template",
+  "name": "NodeJS & ReactJS Template",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#1398ff",
+  "background_color": "#ffffff"
+}

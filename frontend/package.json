@@ -1,0 +1,49 @@
+{
+  "name": "nodejs-react-template-frontend",
+  "version": "1.0.0",
+  "description": "NodeJS & ReactJS Template - Frontend",
+  "author": {
+    "name": "Tomáš Pásler",
+    "email": "tomas.pasler@gmail.com",
+    "url": "https://github.com/pasleto"
+  },
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "polyfill-array-includes": "^2.0.0",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "set \"GENERATE_SOURCEMAP=false\" && npm run build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:80",
+  "devDependencies": {
+    "source-map-explorer": "^2.3.1"
+  }
+}

@@ -1,0 +1,11 @@
+.idea/*
+.vscode/*
+/node_modules
+package-lock.json
+/frontend/node_modules
+/frontend/build
+/frontend/package-lock.json
+**/.DS_Store
+.npm
+npm-debug.log*
+*.log
