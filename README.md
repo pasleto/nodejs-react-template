@@ -6,12 +6,16 @@
   <img height="250" src="./logo.png" alt="Logo"/>
 </p>
 
-<h2 align="center">
+<h3 align="center">
   About
-</h2>
+</h3>
 
 <p align="center">
   This is template for NodeJS Application hosting ReactJS Application
+</p>
+
+<p align="center">
+  NodeJS - rest API &nbsp; | &nbsp; ReactJS - frontend
 </p>
 
 <p align="center">
