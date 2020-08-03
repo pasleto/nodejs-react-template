@@ -12,7 +12,7 @@ const shouldCompress = (req, res) => {
 
 var accessLogStream = rfs.createStream(`morgan-log-${new Date().getDate()}-${new Date().getMonth() + 1}-${new Date().getFullYear()}.log`, {
   interval: '1d',
-  path: path.join(__dirname, '../logs')
+  path: path.join(__dirname, '../../logs')
 });
 
 const compressHandler = compression({ filter: shouldCompress, threshold: 0 });

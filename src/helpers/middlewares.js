@@ -1,5 +1,5 @@
 const notFound = (req, res, next) => {
-  const error = new Error(`Endpoint not found - ${req.originalUrl}`);
+  const error = new Error('Endpoint not found');
   res.status(404);
   next(error);
 };
@@ -10,10 +10,12 @@ const errorHandler = (error, req, res, next) => {
   res.status(statusCode);
   process.env.NODE_ENV === 'development' ? res.send({
     message: error.message,
+    endpoint: req.originalUrl,
     status: statusCode,
     stack: error.stack
   }) : res.send({
     message: error.message,
+    endpoint: req.originalUrl,
     status: statusCode
   });
 };

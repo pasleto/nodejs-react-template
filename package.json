@@ -4,7 +4,8 @@
   "description": "NodeJS & ReactJS Template",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "keywords": [
     "nodejs",
@@ -44,6 +45,7 @@
     "eslint-config-standard": "^6.2.0",
     "eslint-plugin-promise": "^3.0.0",
     "eslint-plugin-standard": "^2.0.1",
+    "nodemon": "^2.0.4",
     "semistandard": "^9.1.0"
   }
 }
